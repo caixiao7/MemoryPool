@@ -3,13 +3,14 @@
 /* Author: Shawn.C
 *  Date: 2015-03-01
 *  History:
-*  2015-03-02：完成初稿，通过简单测试，只支持单线程。
+*  2015-03-02：完成初稿，通过简单测试，只支持单线程
+*  2015-06-10: upload to github
 */
 
 //如果需要支持多线程，则定义SUPPORT_MULTI_THREAD
 #define SUPPORT_MULTI_THREAD
 
-#ifdef SUPPORT_MULTI_THREAD
+#ifdef SUPPORT_MULTI_THREAD 
 #include <process.h>
 #endif
 #include <stdio.h>
