@@ -22,7 +22,7 @@ unsigned int __stdcall ProcClient( LPVOID para )
 		printf("\n");
 		mempool.ReleaseMemory(pCurNote);
 	
-		
+		//sdadfsadf  
 		//mempool.DestoryPool();
 	}
 
